@@ -1,0 +1,349 @@
+/*body{
+    letter-spacing:2px;
+    background-color: #212c3d ;
+    color: rgba(255, 255, 255, 0.863);
+    font-weight: 100;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif
+}*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap");
+.foldername {
+  font-size: 17px !important;
+  line-height: 30px !important;
+  font-weight: 1000 !important;
+  cursor: pointer !important;
+  letter-spacing: 1px;
+}
+
+.clickbait4587 ul {
+  list-style-type: none !important;
+}
+
+.clickbait4587 * {
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.folder {
+  cursor: pointer !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  width: calc(100%);
+}
+
+.folder input {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+  font-size: 15px !important;
+}
+
+.node ul, .Node ul {
+  list-style-type: none !important;
+  min-width: 50px;
+}
+
+.node i, .Node i {
+  z-index: 5;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon:last-child {
+  margin-right: 3px !important;
+}
+
+.iconContainer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.chevIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chevIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.chevIcon.active {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.filesCont {
+  visibility: visible;
+}
+
+.file {
+  visibility: visible;
+}
+
+.file input {
+  font-size: 16px !important;
+}
+
+.fileOpts {
+  text-align: right;
+  position: relative;
+  margin-left: auto;
+}
+
+.fileOpts span {
+  right: 0;
+}
+
+.fileOpts {
+  visibility: hidden;
+}
+
+.fileOpts.active {
+  visibility: visible;
+}
+
+.opt {
+  padding: 6px !important;
+}
+
+.opts {
+  right: -4px;
+  position: absolute;
+  color: #90939c;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 9;
+  top: 2px;
+  background: #171d2d;
+  padding: 7px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.opts span {
+  margin: 0 5px;
+  background: none;
+}
+
+.opts span:hover {
+  opacity: 0.7;
+}
+
+.ttxt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.folder, .file {
+  white-space: nowrap !important;
+  cursor: pointer;
+  padding: 2px 10px;
+  border-radius: 6px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-overflow: ellipsis !important;
+  margin: 3px 0;
+}
+
+.folder:hover, .file:hover {
+  -webkit-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+  background: #2f4d883a;
+}
+
+.folder:hover .fileOpts, .file:hover .fileOpts {
+  visibility: visible;
+}
+
+.folder.selected, .file.selected {
+  background: #2f4d88;
+}
+
+.filename, .foldername {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.mainNodeChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 20px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.selected {
+  background: #2f4d88;
+}
+
+.root, .current {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.root li, .current li {
+  padding: 0.03px;
+}
+
+.root * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.current {
+  color: black;
+  font-weight: 600;
+}
+
+.nodeContent {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnone {
+  display: none !important;
+}
+
+.addon {
+  position: relative;
+  border-radius: 0 50px 50px 0 !important;
+  background: transparent !important;
+}
+
+.dflex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.jcsb {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.inp {
+  position: relative !important;
+  width: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none !important;
+  padding-left: 7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  border: 1px solid rgba(52, 133, 228, 0.24);
+  background-color: transparent;
+  margin-left: 2px;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.ptb0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.folderIcon {
+  position: relative;
+  left: -2.1px;
+}
+
+.folderIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.optIcon {
+  padding: 5px;
+}
+
+.optIcon svg {
+  width: 18px;
+  height: 18px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.openFolder {
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
+.openFolder svg {
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ctInp {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  outline: none 0px;
+  background-color: transparent;
+  margin: 0px;
+  color: inherit;
+  padding: 8px;
+  border-radius: 4px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  height: 28px;
+  border: 1px solid rgba(52, 133, 228, 0.24);
+}
