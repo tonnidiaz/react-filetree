@@ -43,6 +43,7 @@ export default function Home() {
   }
 
   const getCurrentFile = (file)=>{
+    console.log(file)
   }
   const getFiles = () =>{
 

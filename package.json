@@ -1,6 +1,11 @@
 {
   "name": "ftree4587",
-  "version": "0.2.0",
+  "author": {
+    "name": "T.O KOZA",
+    "email": "obediencekoza@gmail.com"
+
+  },
+  "version": "0.2.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -42,10 +47,18 @@
     "rollup-plugin-terser": "^7.0.2",
     "storybook-css-modules-preset": "^1.1.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thehackingknight/react-filetree"
+},
+"homepage": "https://github.com/thehackingknight/react-filetree#readme",
   "peerDependencies": {
     "react-icons": "^4.2.0",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "keywords": ["react", "react filetree", "filetree", "react-filetree", "filetree component"],
+    "license": "(MIT OR Apache-2.0)"
+  
 }
